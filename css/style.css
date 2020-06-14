@@ -1,0 +1,119 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* MIS ESTILOS */
+
+:root{
+  --blanco: #F5F5F5;
+  --rojo: #FF533D;
+  --leather: #AB987A;
+  --oscuro: rgb(63, 60, 60);
+  --gris: #CCC;
+  }
+
+.card{
+  min-height: 300px;
+}
+.page-footer.row{
+  margin: 0;
+}
+.cartas{
+  margin: 20px 0;
+}
+.footer{
+  margin: 0;
+  padding-bottom: 20px;
+}
+.segundo-footer{
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.barra{
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.after-barra{
+  height: 64px;
+}
+img{
+  width: 100%;
+}
+.texto-noticia{
+  font-size: 1.3rem;
+}
+.testimonial{
+  background-color: var(--gris);
+  padding: 2rem;
+  border-radius: 20px;
+  margin-top: 0;
+}
+.testimonial p{
+  line-height: 3rem;
+}
+.fecha{
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.tema{
+  font-weight: bold;
+}
